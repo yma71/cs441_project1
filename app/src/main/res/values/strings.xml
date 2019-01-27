@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_cs441_it_s_fun">Hello CS441! It\'s fun!</string>
+</resources>
