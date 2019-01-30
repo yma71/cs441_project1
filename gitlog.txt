@@ -1,0 +1,63 @@
+commit 13e49de5f49142f9e61150ae0397d51e977692ff
+Author: yma71 <yma71@binghamton.edu>
+Date:   Tue Jan 29 09:27:51 2019 -0500
+
+    p1
+
+ .idea/misc.xml  |    2 +-
+ README.txt      |    5 +
+ log.txt         | 1246 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ log_status.png  |  Bin 0 -> 79808 bytes
+ screen_shot.png |  Bin 0 -> 12538 bytes
+ 5 files changed, 1252 insertions(+), 1 deletion(-)
+
+commit ad30c1e1d7d3d96174d8667d3e389fbdd4e651ff
+Author: yma71 <yma71@binghamton.edu>
+Date:   Sun Jan 27 11:22:05 2019 -0500
+
+    p1
+
+ .gitignore                                         |  11 ++
+ .idea/codeStyles/Project.xml                       |  29 ++++
+ .idea/gradle.xml                                   |  18 +++
+ .idea/misc.xml                                     |  38 +++++
+ .idea/runConfigurations.xml                        |  12 ++
+ .idea/vcs.xml                                      |   6 +
+ app/.gitignore                                     |   1 +
+ app/CMakeLists.txt                                 |  44 ++++++
+ app/build.gradle                                   |  39 +++++
+ app/proguard-rules.pro                             |  21 +++
+ .../cs441/helloworld/ExampleInstrumentedTest.java  |  26 ++++
+ app/src/main/AndroidManifest.xml                   |  24 +++
+ app/src/main/cpp/native-lib.cpp                    |  10 ++
+ .../com/example/cs441/helloworld/MainActivity.java |  67 ++++++++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  34 ++++
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++++++++
+ app/src/main/res/layout/activity_main.xml          |  44 ++++++
+ app/src/main/res/layout/content_main.xml           |  23 +++
+ app/src/main/res/menu/menu_main.xml                |  10 ++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   5 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   5 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.png       | Bin 0 -> 2963 bytes
+ app/src/main/res/mipmap-hdpi/ic_launcher_round.png | Bin 0 -> 4905 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.png       | Bin 0 -> 2060 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher_round.png | Bin 0 -> 2783 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.png      | Bin 0 -> 4490 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    | Bin 0 -> 6895 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.png     | Bin 0 -> 6387 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   | Bin 0 -> 10413 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 9128 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  | Bin 0 -> 15132 bytes
+ app/src/main/res/values/colors.xml                 |   6 +
+ app/src/main/res/values/dimens.xml                 |   3 +
+ app/src/main/res/values/strings.xml                |   5 +
+ app/src/main/res/values/styles.xml                 |  20 +++
+ .../example/cs441/helloworld/ExampleUnitTest.java  |  17 ++
+ build.gradle                                       |  27 ++++
+ gradle.properties                                  |  15 ++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 54329 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   5 +
+ gradlew                                            | 172 +++++++++++++++++++++
+ gradlew.bat                                        |  84 ++++++++++
+ settings.gradle                                    |   1 +
+ 43 files changed, 992 insertions(+)
